@@ -11,7 +11,7 @@ Este é um projeto simples de um catálogo de produtos que exibe informações s
 
 1. Clone este repositório:
 
-[git clone https://github.com/Guaxan/Cards-de-produtos]
+git clone https://github.com/Guaxan/Cards-de-produtos
 
 2. Abra o arquivo `index.html` em seu navegador web.
 

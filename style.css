@@ -1,0 +1,34 @@
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #ccc;
+    border: 1px solid rgba(red, green, blue, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.product-card h4 {
+    font-size: 13px;
+    color: #ffff;
+    text-align: center;
+    background-color: green;
+    width: calc(60% - 20px);
+    border-radius: 10px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
