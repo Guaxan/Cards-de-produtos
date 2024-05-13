@@ -44,10 +44,10 @@ function Product(nome, preco, descricao, imagem, disponivel, avaliacao, caracter
 }
 
 let produto1 = new Product("Camiseta Branca", 20, "Camiseta branca", "https://www.tocha.com.br/image/cache/data/camiseta/camisa%20branca-800x800.jpg", true, 2, ["branca", "manga curta"], ["esporte", "moda"], 13);
-let produto2 = new Product("Bermuda Azul", 30, "Bermuda azul", "bermuda.jpg", true, 5, ["azul", "manga longa"], ["esporte", "moda"], 19);
-let produto3 = new Product("Short Preto", 10, "Short preto", "short.jpg", true, 3, ["preto", "manga curta"], ["esporte", "moda"], 26);
-let produto4 = new Product("Blusa Rosa", 25, "Blusa rosa", "blusa.jpg", true, 3, ["rosa", "manga longa"], ["esporte", "moda"], 25);
-let produto5 = new Product("Calca Preta", 30, "Calca preta", "calca.jpg", true, 5, ["preta", "manga longa"], ["esporte", "moda"], 45);
+let produto2 = new Product("Bermuda Azul", 30, "Bermuda azul", "https://div6kz4xdf2fj.cloudfront.net/Custom/Content/Products/24/74/2474707_bermuda-de-brim-com-elastico-azul-g-idintegracao-105397-sku-2468903_m1_638342835324128447.png", true, 5, ["azul", "com elastico"], ["esporte", "moda"], 19);
+let produto3 = new Product("Shorts Preto", 10, "Short preto", "https://cdn.awsli.com.br/2500x2500/304/304285/produto/116793175/bermuda-linho-masculina-preta01-jrhlwu.jpg", true, 3, ["preto", "manga curta"], ["esporte", "moda"], 26);
+let produto4 = new Product("Blusa Rosa", 25, "Blusa rosa", "https://images.tcdn.com.br/img/img_prod/586374/blusa_infantil_feminina_rosa_gola_redonda_basica_algodao_malwee_7901_1_aa62059a1f352f614b9708cd976878e3.jpg", true, 3, ["rosa", "manga longa"], ["esporte", "moda"], 25);
+let produto5 = new Product("Calca Preta", 30, "Calca preta", "https://http2.mlstatic.com/D_NQ_NP_641420-MLB54303573213_032023-O.webp", true, 5, ["preta", "manga longa"], ["esporte", "moda"], 45);
 
 function createHtmlCard(produto) {
     const card = document.createElement("div");
