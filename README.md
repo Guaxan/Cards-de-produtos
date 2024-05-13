@@ -21,7 +21,7 @@ git clone https://github.com/Guaxan/Cards-de-produtos
 
 - `index.html`: Arquivo HTML principal que contém a estrutura da página e inclui o JavaScript.
 - `styles.css`: Arquivo CSS com estilos para a aparência dos cartões de produto.
-- `trabalhosegunda.js`: Arquivo JavaScript que contém a lógica para gerar os cartões de produto.
+- `generatecards.js`: Arquivo JavaScript que contém a lógica para gerar os cartões de produto.
 
 ## Tecnologias Utilizadas
 
